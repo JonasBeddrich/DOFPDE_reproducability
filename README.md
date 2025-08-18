@@ -7,7 +7,8 @@ A kernel compression method for distributed-order partial differential equations
 
 Core dependencies are:
 
-- Python (3.8.10 or above) 
+- Julia (1.11.2 or above)
+- Python (3.8.10 or above)
 - [CMake](https://cmake.org/) (3.19 or above)
 - [MFEM](https://mfem.org/) (4.8 or above)
 - [Hypre](https://computing.llnl.gov/projects/hypre-scalable-linear-solvers-multigrid-methods) (necessary for MFEM)
