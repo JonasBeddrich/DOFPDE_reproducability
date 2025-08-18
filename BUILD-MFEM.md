@@ -1,3 +1,5 @@
+See also [Building MFEM](https://mfem.org/building/)
+
 1. Get dependencies.
 
    ```bash
@@ -17,7 +19,7 @@
    cd metis-5.1.0 && \
    make config shared=0 cc=$myCC cxx=$myCXX && \
    make && \
-   sudo make install  # last one is optional
+   sudo make install  # optional
    ```
 
 3. Build and install HYPRE
@@ -29,7 +31,7 @@
    cd build && \
    cmake .. && \
    make -j $(nproc --all) && \
-   sudo make install # last one is optional
+   sudo make install # optional
    ```
 
 4. Build and install MFEM
@@ -39,16 +41,7 @@
    cd mfem && \
    mkdir build && \
    cd build && \
-   cmake -DMFEM_USE_MPI=ON -DMFEM_USE_LAPACK=ON .. && \
+   cmake .. && \
    make -j $(nproc --all) && \
-   sudo make install # last one is optional
-   ```
-
-5. Test MFEM installation
-
-   ```bash 
-   cd <mypath>
-   cd mfem/build/examples && \
-   make ex1p && \
-   mpirun -np 4 ./ex1p
+   sudo make install # optional
    ```
