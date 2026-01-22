@@ -1,7 +1,7 @@
-# A kernel compression method for distributed-order partial differential equations 
+# A kernel compression method for distributed-order fractional partial differential equations 
 
 This repository is the code base of the manuscript: 
-A kernel compression method for distributed-order partial differential equations by Beddrich and Wohlmuth (2025) available [here, reference will be updated](https://arxiv.org/abs/2508.13631). 
+A kernel compression method for distributed-order fractional partial differential equations by Beddrich and Wohlmuth (2025) available [here, reference will be updated](https://arxiv.org/abs/2508.13631). 
 
 ## Project dependencies
 
