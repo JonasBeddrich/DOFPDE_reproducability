@@ -1,7 +1,7 @@
 # A kernel compression method for distributed-order partial differential equations 
 
 This repository is the code base of the manuscript: 
-A kernel compression method for distributed-order partial differential equations by Beddrich and Wohlmuth (2025) available [here, reference will be updated](). 
+A kernel compression method for distributed-order partial differential equations by Beddrich and Wohlmuth (2025) available [here, reference will be updated](https://arxiv.org/abs/2508.13631). 
 
 ## Project dependencies
 
@@ -19,7 +19,7 @@ See also [BUILD-MFEM.md](./BUILD-MFEM.md) on how to install the dependencies.
 ## Build instructions
 1. Clone the repository
    ```bash
-   git clone https://github.com/JonasBeddrich/DODiffusionWaveEquation.git
+   git clone https://github.com/JonasBeddrich/DOFPDE_reproducability.git
    ```
 2. Create a build directory
    ```bash
@@ -110,7 +110,7 @@ See also [BUILD-MFEM.md](./BUILD-MFEM.md) on how to install the dependencies.
 
 ## License
 
-Copyright (c) 2025 Jonas Beddrich
+Copyright (c) 2026 Jonas Beddrich
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
 documentation files (the “Software”), to deal in the Software without restriction, including without limitation the
